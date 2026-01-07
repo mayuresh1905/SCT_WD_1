@@ -1,0 +1,27 @@
+body{
+	margin:0;
+	font-family: Arial;
+}
+#bar{
+	position:fixed;
+	top:0;
+	width:100%;
+	background-color:black;
+	padding:20px;
+	text-align:center;
+	transition:background-color 0.3s;
+}
+#bar a{
+	color:white;
+	text-decoration:none;
+	margin:15px;
+	font-size:18px;
+}
+#bar a:hover{
+	color:yellow;
+}
+.section{
+	padding-top:100px;
+	height:100vh;
+	text-align:center;
+}
